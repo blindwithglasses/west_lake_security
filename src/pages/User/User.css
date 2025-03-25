@@ -1,0 +1,49 @@
+.social-login .ant-btn {
+  height: 40px;
+  font-size: 16px;
+}
+
+.social-login .anticon {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.settings-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.settings-card {
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.avatar-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.user-avatar {
+  margin-bottom: 1rem;
+  border: 3px solid #1890ff;
+  box-shadow: 0 4px 12px rgba(24,144,255,0.2);
+  transition: all 0.3s ease;
+}
+
+.user-avatar:hover {
+  transform: scale(1.05);
+}
+
+.ant-form-item-label label {
+  font-weight: 500;
+  color: #333;
+}
+
+.ant-input-prefix {
+  margin-right: 8px;
+  color: #999;
+} 
